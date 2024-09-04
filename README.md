@@ -1,8 +1,25 @@
-# React + Vite
+This project is a simple React application that displays user profile cards. Each card contains information about a user, including their name, city, description, skills, online status, and profile picture.
+## Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Displays a list of user profiles.
+- Each profile includes:
+  - Name
+  - City
+  - Description
+  - Skills
+  - Online status (indicated by a label)
+  - Profile picture
+  - Buttons for "Message" and "Following" (not functional in this version).
 
-Currently, two official plugins are available:
+## Setup and Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+
+- Node.js 
+- npm
+  
+### Installation
+npm install
+
+### Running the Application
+npm start
